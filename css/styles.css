@@ -10,6 +10,9 @@ color: #000;
 display: flex;
 flex-direction: column;
 font-family: "Mulish", "Arial" sans-serif;
+font-weight: 300;
+line-height: 1.5;
+color:#7d7987;
 }
 
 .container{
@@ -18,7 +21,22 @@ font-family: "Mulish", "Arial" sans-serif;
   margin: 0 auto;
   padding: 0 20px;
   font-size: 18px;
+}
 
+.button{
+text-decoration: none;
+cursor: pointer;
+/* display:inline-block; */
+text-align: center;
+padding: 20px 50px;
+}
+
+.main-link {
+background-color:transparent;
+border: 1.5px solid #458FF6;
+padding: 15px 50px;
+color:#458FF6;
+border-radius:55px;
 }
 
 .site-header-inner{
@@ -58,15 +76,128 @@ font-family: "Mulish", "Arial" sans-serif;
   display: flex;
   justify-content: space-between;
   align-items:center;
-margin-right: 40px;
+/* margin-right: 10px; */
 }
 
 .hero-content{
-  min-width: 445px;
+  max-width: 445px;
+}
+
+.hero-item{
+  font-size: 48px;
+  line-height: 1.2;
+ font-weight: 700;
+ margin-bottom: 25px;
+ color:#000;
+}
+
+
+.hero-link{
+  color:#fff;
+  background-color:#458FF6;
+  border-radius: 55px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 60px;
+padding: 20px 40px;
 }
 
 .hero-img{
-max-width: 600px;
+max-width: 693px;
 width: 100%;
 height: auto;
+}
+
+/* SEVICES */
+
+.services {
+  padding-top: 220px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services-title{
+  text-align: center;
+font-size: 36px;
+font-weight: 700;
+color:#000;
+line-height: 1.2;
+margin-bottom: 60px;
+}
+
+.services-text{
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+
+}
+
+.line {
+  display: inline-flex;
+  text-align: center;
+  width: 56px;
+  height: 2px;
+  border-radius:20px;
+  background-color:#000;
+  margin-bottom: 33px;
+}
+
+.services-card-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.services-card-item{
+max-width: 250px;
+width: 100%;
+background-color:#fff;
+border-radius: 20px;
+box-shadow: 10px 40px 58px rgba(229, 233, 246, 0.4);
+padding: 54px 37px 43px 37px;
+margin-left: 34px;
+margin-bottom: 37px;
+}
+
+.services-card-item-heading {
+  font-size: 24px;
+font-weight: 700;
+line-height: 1.2;
+color: #000;
+margin-bottom: 10px;
+}
+.services-card-item-text {
+  font-size: 16px;
+}
+
+.example{
+max-width: 1200px;
+width: 100%;
+margin: auto ;
+margin-left: 10px;
+}
+
+.example-container{
+display:flex;
+align-items:center;
+justify-content: space-between;
+}
+
+.content{
+  margin-left: 60px;
+}
+
+.content-item{
+  color:#000;
+  font-style: bold;
+font-size: 36px;
+line-height: 56px;
+}
+
+.content-text{
+font-size: 18px;
+line-height: 30px;
 }
