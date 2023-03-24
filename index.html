@@ -21,7 +21,7 @@
         <a class="logo" href="/">
           <img
             class="site-header-logo"
-            src="img/logo.svg"
+            src="img/logojon.svg"
             alt="sayt logosi"
             width="160"
             height="41"
@@ -30,19 +30,19 @@
         <nav>
           <ul class="sitenav">
             <li class="sitenav-item">
-              <a class="sitenav-link active" href="/">Home</a>
+              <a class="sitenav-link active" href="#">Home</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="/">Find a doctor</a>
+              <a class="sitenav-link" href="#">Find a doctor</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="/">Apps</a>
+              <a class="sitenav-link" href="#">Apps</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="/">Testimonials</a>
+              <a class="sitenav-link" href="#">Testimonials</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="/">About us</a>
+              <a class="sitenav-link" href="#">About us</a>
             </li>
           </ul>
         </nav>
@@ -58,15 +58,18 @@
               Trafalgar provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone
             </p>
-            <p><a class="hero-link button" href="/">Consult today</a></p>
+            <p><a class="hero-link button" href="#">Consult today</a></p>
           </div>
           <img
             class="hero-img"
-            src="img/trafalgar-header illustration 1.png"
+            src="img/trafalgar-header-illustration 1.png"
             alt="illustration"
             width="693"
             height="600"
-            srcset="img/trafalgar-header illustration 1.png 1x, img/trafalgar-header illustration@2x.png 2x"
+            srcset="
+              img/trafalgar-header-illustration.png    1x,
+              img/trafalgar-header-illustration@2x.png 2x
+            "
           />
         </div>
       </section>
@@ -180,7 +183,7 @@
       <section class="leading-healthcare">
         <div class="container healthcare-container">
           <img
-            src="img/trafalgar-illustration sec02 1.png"
+            src="img/trafalgar-illustration-sec02.png"
             alt="illustrator"
             width="650"
             height="454"
@@ -202,7 +205,7 @@
       <section class="leading-healthcare reverse">
         <div class="container healthcare-container">
           <img
-            src="img/trafalgar-illustration sec02 1.png"
+            src="img/trafalgar-illustration-sec02.png"
             alt="illustrator"
             width="650"
             height="477"
@@ -255,8 +258,8 @@
     <div class="article-bottom">
       <div class="container article-bottom-card">
         <div class="article-content">
-          <h2>Check out our latest article</h2>
-          <span class="line comment-line"></span>
+          <h2 class="article-item">Check out our latest article</h2>
+          <span class="line"></span>
         </div>
         <div class="article-bottom-inner">
           <ul class="services-card-list">
@@ -267,51 +270,114 @@
                 width="369"
                 height="246"
               />
-              <h3>Disease detection, check up in the laboratory</h3>
-              <p>
-                In this case, the role of the health laboratory is very
-                important to do a disease detection...
-              </p>
-              <a href="/">Read more </a>
+              <div class="article-bottom-content">
+                <h3>Disease detection,t check up in the laboratory</h3>
+                <p>
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </p>
+                <div>
+                  <a class="article-bottom-link" href="/">Read more </a>
+                  <span class="article-bottom-icon"></span>
+                </div>
+              </div>
             </li>
           </ul>
           <ul class="services-card-list">
             <li class="article-bottom-li">
               <img
-                src="img/ukol.jpg"
-                alt="ukol qilinyabdi"
+                src="img/laborant.jpg"
+                alt="mikroskopda nimanidir ko'ryabdi"
                 width="369"
                 height="246"
               />
-              <h3>Disease detection, check up in the laboratory</h3>
-              <p>
-                In this case, the role of the health laboratory is very
-                important to do a disease detection...
-              </p>
-              <a href="/">Read more </a>
+              <div class="article-bottom-content">
+                <h3>Herbal medicines that are safe for consumption</h3>
+                <p>
+                  Herbal medicine is very widely used at this time because of
+                  its very good for your health...
+                </p>
+                <div>
+                  <a class="article-bottom-link" href="/">Read more </a>
+                  <span class="article-bottom-icon"></span>
+                </div>
+              </div>
             </li>
           </ul>
 
           <ul class="services-card-list">
             <li class="article-bottom-li">
               <img
-                src="img/ukol.jpg"
-                alt="ukol qilinyabdi"
+                src="img/surtma.jpg"
+                alt="terisini parvarishlayotgan qiz"
                 width="369"
                 height="246"
               />
-              <h3>Disease detection, check up in the laboratory</h3>
-              <p>
-                In this case, the role of the health laboratory is very
-                important to do a disease detection...
-              </p>
-              <a href="/">Read more </a>
+              <div class="article-bottom-content">
+                <h3>Natural care for healthy facial skin</h3>
+                <p>
+                  A healthy lifestyle should start from now and also for your
+                  skin health. There are some...
+                </p>
+                <div>
+                  <a class="article-bottom-link" href="/">Read more </a>
+                  <span class="article-bottom-icon"></span>
+                </div>
+              </div>
             </li>
           </ul>
+        </div>
+        <div class="article-link-wrapper">
+          <a class="main-link" href="#">View all</a>
         </div>
       </div>
     </div>
 
-    <footer></footer>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-wrapper">
+          <a href="/">
+            <img
+              src="img/logo-white.svg"
+              alt="sayt logosi"
+              width="160"
+              height="40"
+            />
+          </a>
+
+          <h2 class="footer-title">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </h2>
+          <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+        </div>
+
+        <ul class="footer-container-list">
+          <li class="footer-container-li">Company</li>
+          <li class="footer-container-li">About</li>
+          <li class="footer-container-li">Testimonials</li>
+          <li class="footer-container-li">Find a doctor</li>
+          <li class="footer-container-li">Apps</li>
+        </ul>
+
+        <ul class="footer-container-list">
+          <li class="footer-container-li">Region</li>
+          <li class="footer-container-li">Indonesia</li>
+          <li class="footer-container-li">Singapore</li>
+          <li class="footer-container-li">Hongkong</li>
+          <li class="footer-container-li">Canada</li>
+        </ul>
+
+        <ul class="footer-container-list">
+          <li class="footer-container-li">Help</li>
+          <li class="footer-container-li">Help center</li>
+          <li class="footer-container-li">Contact support</li>
+          <li class="footer-container-li">Instructions</li>
+          <li class="footer-container-li">How it works</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

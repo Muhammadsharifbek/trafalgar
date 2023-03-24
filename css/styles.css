@@ -6,13 +6,12 @@ html {
 body {
   height: 100%;
   background-color: #e5e5e5;
-  color: #000;
+  /* color: #7d7987; */
   display: flex;
   flex-direction: column;
-  font-family: "Mulish", "Arial" sans-serif;
+  font-family: "Mulish", "Arial", sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  color: #7d7987;
 }
 
 .container {
@@ -37,6 +36,7 @@ body {
   padding: 20px 50px;
   color: #458ff6;
   border-radius: 55px;
+  text-decoration: none;
 }
 
 .site-header-inner {
@@ -86,6 +86,7 @@ body {
   font-size: 48px;
   line-height: 1.2;
   font-weight: 700;
+  margin-top: 0;
   margin-bottom: 25px;
   color: #000;
 }
@@ -119,11 +120,16 @@ body {
   width: 100%;
 }
 
+.services-card-item img {
+  margin-bottom: 21px;
+}
+
 .services-title {
   font-size: 36px;
   font-weight: 700;
   color: #000;
   line-height: 1.2;
+  margin-top: 0;
   margin-bottom: 60px;
 }
 
@@ -171,6 +177,7 @@ body {
   line-height: 1.2;
   color: #000;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 .services-card-item-text {
   font-size: 16px;
@@ -204,6 +211,7 @@ body {
   font-style: bold;
   font-size: 36px;
   line-height: 56px;
+  margin-top: 0;
 }
 
 .content-text {
@@ -215,6 +223,11 @@ body {
 
 /* COMMENT ARTICLE   */
 
+.comment {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
 .comment-container {
   background-color: #5a98f2;
   border-radius: 24px;
@@ -222,13 +235,15 @@ body {
   padding: 60px 60px 60px 60px;
 }
 .comment-title {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-weight: 700;
   font-size: 36px;
   color: #fff;
 }
 
 .comment-line {
-  color: #fff;
+  background-color: #fff;
 }
 
 .comment-card {
@@ -278,14 +293,25 @@ body {
 
 /* ARTICLE-BOTTOM */
 
+.article-bottom {
+  margin-bottom: 150px;
+}
+
 .article-content {
   text-align: center;
+}
+
+.article-title {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .article-bottom-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 69px;
 }
 
 .services-card-list {
@@ -295,4 +321,67 @@ body {
 .article-bottom-li {
   background-color: #fff;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.article-bottom-li img {
+  width: 100%;
+  height: auto;
+}
+
+.article-bottom-content {
+  padding: 21px 33px 35px;
+}
+
+.article-link-wrapper {
+  text-align: center;
+}
+
+.article-bottom-link {
+  background-image: url("https.//picsum.photos/250");
+  text-decoration: none;
+}
+
+.article-bottom-icon {
+  display: inline-block;
+  width: 14px;
+  height: 9px;
+  background-image: url(../img/strelka.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+/* FOOTER */
+
+.footer-container {
+  border-radius: 10px;
+  background-color: #67c3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 50px 50px 30px;
+}
+
+.footer-wrapper {
+  width: 391px;
+  color: #fff;
+  /* margin-right: 105px; */
+  line-height: 28px;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+.footer-container-list {
+  width: 200px;
+  height: 201px;
+  list-style-type: none;
+}
+
+.footer-container-li {
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 18px;
 }
